@@ -1,0 +1,42 @@
+html, body {
+    margin: 0px;
+}
+
+.loginContainer {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.inputDiv {
+    height: 50%;
+    width: 50%;
+    margin: 0px;
+    display: flex;
+    /*flex-direction: row;*/
+    align-items: center;
+    justify-content: center;
+
+}
+
+#anmeldeButton {
+    font-size: 18px;
+    display: flex;
+    height: 30px;
+    margin: 1px;
+}
+
+#passwort {
+    font-size: 18px;
+    display: flex;
+    height: 24px;
+    margin: 1px;
+
+
+}
+

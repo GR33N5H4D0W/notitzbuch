@@ -1,0 +1,158 @@
+html, body{
+    margin: 0px;
+}
+
+.container {
+height: 100vh;
+width: 100%;
+maring: 0px;
+display: flex;
+flex-direction: row;
+align-items: stretch;
+/*background-color: green;*/
+}
+
+.aside{
+height: 100%;
+width: 30%;
+background-color: green;
+border: black 20px solid;
+margin: 0px;
+position: relative;
+box-sizing: border-box;
+}
+
+.main {
+    height: 100%;
+    width: 69%;
+    background-color: green;
+    border: black 20px solid;
+    border-left: 0px solid black;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#buttonHinzufügen {
+    cursor: pointer;
+    padding: 13px 20px;
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    font-size: 20px;
+}
+
+#buttonAbmeldung {
+    font-size: 18px;
+     cursor: pointer;
+     position: absolute;
+     right: 15px;
+     top: -10px;
+     padding: 3px 15px;
+     background-color: #990000;
+     color: #DDD;
+
+
+}
+
+#buttonEinstellungen {
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 120px;
+    top: -10px;
+    padding: 3px 15px;
+    background-color: grey;
+}
+
+#data {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.data input {
+    display: flex;
+    width: 40px;
+    height: 15px;
+}
+
+.data {
+    height: 90%;
+    width: 80%;
+}
+
+#notizname {
+    /*position: absolute;*/
+    top: 30px;
+    left: 10px;
+    height: 15px;
+    width: 100px;
+}
+
+#datum {
+    /*position: absolute;*/
+    top: 30px;
+    left: 130px;
+    width: 60px;
+
+}
+
+#zeit {
+    /*position: absolute;*/
+    top: 30px;
+    left: 220px;
+    width: 35px;
+}
+
+#textDiv {
+    display: flex;
+    align-items: center;
+    /*position: relative;*/
+    bottom: 20%;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+}
+
+.notitzDatumZeit {
+    display: flex;
+    width: 200px;
+    top: 20px;
+    left: 200px;
+
+}
+
+.notitzDatumZeit input {
+    margin-right: 3px;
+}
+
+#textfeld {
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin: 50px;*/
+
+    /*top: 100px;*/
+    /*left: 20px;*/
+    height: 80%;
+    width: 100%;
+}
+
+.speichernLoeschen {
+    display: flex;
+    flex-direction: row-reverse;
+    /*align-items: right;*/
+    /*justify-content: right;*/
+}
+/*#datum_tag {
+    top: 15px;
+    left: 5px;
+    height: 15px;
+    width: 15px;
+}*/

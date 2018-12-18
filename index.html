@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notitzapp</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="application/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="aside">
+        <input type="button" id="buttonHinzufügen" value="+" onclick="newFile()">
+    </div>
+    <div class="main">
+        <input type="button" id="buttonAbmeldung" value="Abmelden">
+        <input type="button" id="buttonEinstellungen" value="Einstellungen">
+        <div class="data">
+            <div class="notitzDatumZeit">
+                <input type="text" id="notizname" placeholder="Notizname">
+                <input type="text" id="datum" placeholder="Datum">
+                <input type="text" id="zeit" placeholder="Zeit">
+            </div>
+            <div id="textDiv">
+                <textarea type="" id="textfeld" rows="20" cols="60"></textarea>
+            </div>
+            <div class="speichernLoeschen">
+            <button type="submit" onclick="time()">Speichern</button>
+            <button type="reset">Löschen</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
